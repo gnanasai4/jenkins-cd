@@ -13,7 +13,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: ashulb
+    app: ashu-appweb
   type: ClusterIP
 status:
   loadBalancer: {}
